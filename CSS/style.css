@@ -293,12 +293,7 @@ section img {
         width: 100%;
         display: flex;
         justify-content: center;
-        padding: 25px;
         gap: 30px;
-    }
-
-    .social-media i {
-        padding: 0;
     }
 }
 
