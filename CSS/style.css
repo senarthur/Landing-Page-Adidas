@@ -60,7 +60,7 @@ header .icon {
 }
 
 main {
-    padding: 2%;
+    padding: 2% 2% 0;
 }
 
 .content {
@@ -230,10 +230,6 @@ section img {
 }
 
 @media (max-width: 1000px) {
-    body {
-        height: auto;
-    }
-
     main {
         padding: 0;
     }
