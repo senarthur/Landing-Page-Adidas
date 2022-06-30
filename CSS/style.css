@@ -287,12 +287,16 @@ section img {
     }
 
     .social-media {
-        padding: 25px;
         position: static;
-        width: auto;
         transform: none;
+        padding: 0;
+        width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .social-media i {
+        padding: 0;
     }
 }
 
@@ -324,7 +328,6 @@ section img {
         margin: 0;
         padding: 15px 0 0 25px;
         position: static;
-        width: fit-content;
         transform: none;
         display: flex;
     }
