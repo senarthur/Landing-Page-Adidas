@@ -296,9 +296,24 @@ section img {
     }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1270px) {
+    body {
+        overflow: hidden;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    .content section {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 0;
+    }
+
     .content section h2 {
-        font-size: 2.8em;
+        font-size: 2.6em;
+        margin-bottom: 15px;
     }
 
     .bg {
@@ -310,7 +325,12 @@ section img {
     }
 
     .social-media {
-        gap: 15px;
-        left: 150px;
+        margin: 0;
+        padding: 15px 0 0 25px;
+        position: static;
+        width: fit-content;
+        transform: none;
+        display: flex;
     }
+
 }
