@@ -297,10 +297,6 @@ section img {
 }
 
 @media (max-width: 1270px) {
-    body {
-        overflow: hidden;
-    }
-
     header {
         margin-bottom: 10px;
     }
